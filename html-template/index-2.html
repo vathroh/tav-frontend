@@ -1,0 +1,1448 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>CMART - Car Dealer HTML Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+    <!-- External CSS libraries -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-submenu.css">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/leaflet.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="fonts/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="fonts/linearicons/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" type="text/css"  href="css/dropzone.css">
+    <link rel="stylesheet" type="text/css"  href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css"  href="css/jnoty.css">
+    <link rel="stylesheet" type="text/css"  href="css/slick.css">
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/initial.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" id="style_sheet" href="css/skins/midnight-blue.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=OSans:400,300,600,700,800%7CPlayfair+Display:400,700%7CRoboto:100,300,400,400i,500,700">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,300,700">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link rel="stylesheet" type="text/css" href="css/ie10-viewport-bug-workaround.css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script  src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script  src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script  src="js/html5shiv.min.js"></script>
+    <script  src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="page_loader"></div>
+
+<!-- Main header start -->
+<header class="main-header sticky-header header-with-top" id="main-header-2">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand logos" href="index.html">
+                <img src="img/logos/black-logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" id="drawer">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="navbar-collapse collapse w-100 justify-content-end" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                            <li><a class="dropdown-item" href="index-2.html">Home 2</a></li>
+                            <li><a class="dropdown-item" href="index-3.html">Home 3</a></li>
+                            <li><a class="dropdown-item" href="index-4.html">Home 4</a></li>
+                            <li><a class="dropdown-item" href="index-5.html">Home 5</a></li>
+                            <li><a class="dropdown-item" href="index-6.html">Home 6</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Car Listing
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">List Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="car-list-rightside.html">List Right Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="car-list-leftsidebar.html">List Left Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="car-list-fullWidth.html">List FullWidth</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Grid Layout</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="car-grid-rightside.html">Grid Right Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="car-grid-leftside.html">Grid Left Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="car-grid-fullWidth.html">Grid FullWidth</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Car Details</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="car-details.html">Car Details 1</a></li>
+                                    <li><a class="dropdown-item" href="car-details-2.html">Car Details 2</a></li>
+                                    <li><a class="dropdown-item" href="car-details-3.html">Car Details 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown megamenu-li">
+                        <a class="nav-link dropdown-toggle" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                        <div class="dropdown-menu megamenu" aria-labelledby="dropdown01">
+                            <div class="megamenu-area">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Pages</h6>
+                                            <a class="dropdown-item" href="about.html">About Us</a>
+                                            <a class="dropdown-item" href="services.html">Services</a>
+                                            <a class="dropdown-item" href="agent.html">Agent</a>
+                                            <a class="dropdown-item" href="car-comparison.html">Car Compare</a>
+                                            <a class="dropdown-item" href="car-reviews.html">Car Reviews</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Pages</h6>
+                                            <a class="dropdown-item" href="gallery.html">Gallery</a>
+                                            <a class="dropdown-item" href="typography.html">Typography</a>
+                                            <a class="dropdown-item" href="pricing-tables.html">Pricing Tables</a>
+                                            <a class="dropdown-item" href="elements.html">Elements</a>
+                                            <a class="dropdown-item" href="faq.html">Faq</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 col-md-4 col-lg-4">
+                                        <div class="megamenu-section">
+                                            <h6 class="megamenu-title">Pages</h6>
+                                            <a class="dropdown-item" href="icon.html">Icons</a>
+                                            <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+                                            <a class="dropdown-item" href="404.html">Error Page</a>
+                                            <a class="dropdown-item" href="login.html">login</a>
+                                            <a class="dropdown-item" href="signup.html">Register</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="blog-columns-2col.html">Blog Columns 2</a></li>
+                            <li><a class="dropdown-item" href="blog-columns-3col.html">Blog Columns 3</a></li>
+                            <li><a class="dropdown-item" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                            <li><a class="dropdown-item" href="blog-details.html">Blog Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="shop-list.html">Shop List</a></li>
+                            <li><a class="dropdown-item" href="shop-cart.html">Shop Cart</a></li>
+                            <li><a class="dropdown-item" href="shop-checkout.html">Shop Checkout</a></li>
+                            <li><a class="dropdown-item" href="shop-details.html">Shop Details</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="login.html" class="nav-link h-icon">
+                            <i class="flaticon-logout"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#full-page-search" class="nav-link h-icon">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<!-- Main header end -->
+
+<!-- Sidenav start -->
+<nav id="sidebar" class="nav-sidebar">
+    <!-- Close btn-->
+    <div id="dismiss">
+        <i class="fa fa-close"></i>
+    </div>
+    <div class="sidebar-inner">
+        <div class="sidebar-logo">
+            <img src="img/logos/black-logo.png" alt="sidebarlogo">
+        </div>
+        <div class="sidebar-navigation">
+            <h3 class="heading">Pages</h3>
+            <ul class="menu-list">
+                <li><a href="#" class="active pt0">Index <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="index.html">Index 1</a></li>
+                        <li><a href="index-2.html">Index 2</a></li>
+                        <li><a href="index-3.html">Index 3</a></li>
+                        <li><a href="index-4.html">Index 4</a></li>
+                        <li><a href="index-5.html">Index 5</a></li>
+                        <li><a href="index-6.html">Index 6</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Car Listing <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li>
+                            <a href="#">List Layout <em class="fa fa-chevron-down"></em></a>
+                            <ul>
+                                <li><a class="dropdown-item" href="car-list-rightside.html">List Right Sidebar</a></li>
+                                <li><a class="dropdown-item" href="car-list-leftsidebar.html">List Left Sidebar</a></li>
+                                <li><a class="dropdown-item" href="car-list-fullWidth.html">List FullWidth</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Grid Layout <em class="fa fa-chevron-down"></em></a>
+                            <ul>
+                                <li><a class="dropdown-item" href="car-grid-rightside.html">Grid Right Sidebar</a></li>
+                                <li><a class="dropdown-item" href="car-grid-leftside.html">Grid Left Sidebar</a></li>
+                                <li><a class="dropdown-item" href="car-grid-fullWidth.html">Grid FullWidth</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Car Details <em class="fa fa-chevron-down"></em></a>
+                            <ul>
+                                <li><a class="dropdown-item" href="car-details.html">Car Details 1</a></li>
+                                <li><a class="dropdown-item" href="car-details-2.html">Car Details 2</a></li>
+                                <li><a class="dropdown-item" href="car-details-3.html">Car Details 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Pages <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="agent.html">Agent</a>
+                        </li>
+                        <li>
+                            <a href="car-comparison.html">Car Compare</a>
+                        </li>
+                        <li>
+                            <a href="car-reviews.html">Car Reviews</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="typography.html">Typography</a>
+                        </li>
+                        <li>
+                            <a href="pricing-tables.html">Pricing Tables</a>
+                        </li>
+                        <li>
+                            <a href="elements.html">Elements</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">Faq</a>
+                        </li>
+                        <li>
+                            <a href="icon.html">Icons</a>
+                        </li>
+                        <li>
+                            <a href="coming-soon.html">Coming Soon</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Error Page</a>
+                        </li>
+                        <li>
+                            <a href="login.html">login</a>
+                        </li>
+                        <li>
+                            <a href="signup.html">Register</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Blog <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="blog-columns-2col.html">Blog Columns 2</a></li>
+                        <li><a href="blog-columns-3col.html">Blog Columns 3</a></li>
+                        <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Shop <em class="fa fa-chevron-down"></em></a>
+                    <ul>
+                        <li><a href="shop-list.html">Shop List</a></li>
+                        <li><a href="shop-cart.html">Shop Cart</a></li>
+                        <li><a href="shop-checkout.html">Shop Checkout</a></li>
+                        <li><a href="shop-details.html">Shop Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="login.html" class="nav-link h-icon">
+                        <i class="flaticon-logout"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#full-page-search" class="nav-link h-icon">
+                        <i class="fa fa-search"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="get-in-touch">
+            <h3 class="heading">Get in Touch</h3>
+            <div class="get-in-touch-box d-flex">
+                <i class="flaticon-phone"></i>
+                <div class="detail">
+                    <a href="tel:0477-0477-8556-552">0477 8556 552</a>
+                </div>
+            </div>
+            <div class="get-in-touch-box d-flex">
+                <i class="flaticon-mail"></i>
+                <div class="detail">
+                    <a href="#">info@themevessel.com</a>
+                </div>
+            </div>
+            <div class="get-in-touch-box d-flex mb-0">
+                <i class="flaticon-earth"></i>
+                <div class="detail">
+                    <a href="#">info@themevessel.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="get-social">
+            <h3 class="heading">Get Social</h3>
+            <a href="#" class="facebook-bg">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#" class="twitter-bg">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#" class="google-bg">
+                <i class="fa fa-google"></i>
+            </a>
+            <a href="#" class="linkedin-bg">
+                <i class="fa fa-linkedin"></i>
+            </a>
+        </div>
+    </div>
+</nav>
+<!-- Sidenav end -->
+
+<!-- Banner start -->
+<div class="banner" id="banner2">
+    <div id="bannerCarousole" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner banner-slider-inner">
+            <div class="carousel-item banner-max-height active item-bg">
+                <img class="d-block w-100 h-100" src="img/banner/img-6.png" alt="banner">
+                <div class="carousel-content container banner-info bi-2">
+                    <div class="text-center">
+                        <h3 class="text-uppercase">Find your Dream Car</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        </p>
+                        <div class="inline-search-area">
+                            <div class="row g-0">
+                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                                    <select class="selectpicker search-fields" name="select-brand">
+                                        <option>Select Brand</option>
+                                        <option>Audi</option>
+                                        <option>BMW</option>
+                                        <option>Honda</option>
+                                        <option>Nissan</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                                    <select class="selectpicker search-fields" name="select-make">
+                                        <option>Select Make</option>
+                                        <option>BMW</option>
+                                        <option>Honda</option>
+                                        <option>Lamborghini</option>
+                                        <option>Sports Car</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                                    <select class="selectpicker search-fields" name="select-location">
+                                        <option>Select Location</option>
+                                        <option>United States</option>
+                                        <option>United Kingdom</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                                    <select class="selectpicker search-fields" name="select-year">
+                                        <option>Select Year</option>
+                                        <option>2018</option>
+                                        <option>2019</option>
+                                        <option>2020</option>
+                                        <option>2021</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col">
+                                    <select class="selectpicker search-fields" name="select-type">
+                                        <option>Select Type Of Car</option>
+                                        <option>New Car</option>
+                                        <option>Used Car</option>
+                                    </select>
+                                </div>
+                                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6 col-6 search-col sc2">
+                                    <button class="btn button-theme btn-search">
+                                        <i class="fa fa-search"></i> <strong>Find</strong>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner end -->
+
+<!-- Search area 3 start -->
+<div class="search-area-3 clearfix d-md-none d-lg-none d-xl-none">
+    <div class="container">
+        <div class="inline-search-area">
+            <div class="row row-3">
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 search-col">
+                    <select class="selectpicker search-fields" name="any-status">
+                        <option>Any Status</option>
+                        <option>For Rent</option>
+                        <option>For Sale</option>
+                    </select>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 search-col">
+                    <select class="selectpicker search-fields" name="all-type">
+                        <option>All Type</option>
+                        <option>Apartments</option>
+                        <option>Shop</option>
+                        <option>Restaurant</option>
+                        <option>Villa</option>
+                    </select>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 search-col">
+                    <select class="selectpicker search-fields" name="bedrooms">
+                        <option>Bedrooms</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 search-col">
+                    <select class="selectpicker search-fields" name="bathrooms">
+                        <option>Bathrooms</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 search-col">
+                    <select class="selectpicker search-fields" name="location">
+                        <option>Location</option>
+                        <option>American</option>
+                        <option>Florida</option>
+                        <option>Belgium</option>
+                        <option>Canada</option>
+                    </select>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 search-col">
+                    <button class="btn button-theme btn-search btn-block">
+                        <i class="fa fa-search"></i><strong>Find</strong>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Search area 3 end -->
+
+<!-- Featured car start -->
+<div class="featured-car content-area">
+    <div class="container">
+        <!-- Main title 3 -->
+        <div class="main-title-3">
+            <p>Types of car</p>
+            <h1>Featured <span>Cars</span></h1>
+        </div>
+        <!-- Slick slider area start -->
+        <div class="slick-slider-area clearfix">
+            <div class="row slick-carousel" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+                <div class="slick-slide-item">
+                    <div class="car-box-4">
+                        <div class="photo-overflow">
+                            <div class="car-thumbnail-photo">
+                                <img class="img-fluid w-100" src="img/car/car-10.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="for">For Sale</div>
+                        <div class="ling-section">
+                            <div class="lo-text clearfix">
+                                <h3>
+                                    <a href="car-details.html">BMW m6</a>
+                                </h3>
+                                <h5>$920.00 <span>/monthly</span></h5>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <i class="flaticon-way"></i> 4,000 km
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-manual-transmission"></i> Manual
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-calendar-1"></i> 2021
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-fuel"></i> Petrol
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-car"></i> Sport
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-gear"></i> Blue
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide-item">
+                    <div class="car-box-4">
+                        <div class="photo-overflow">
+                            <div class="car-thumbnail-photo">
+                                <img class="img-fluid w-100" src="img/car/car-8.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="for">For Rent</div>
+                        <div class="ling-section">
+                            <div class="lo-text clearfix">
+                                <h3>
+                                    <a href="car-details.html">Red Lamborghini</a>
+                                </h3>
+                                <h5>$920.00 <span>/monthly</span></h5>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <i class="flaticon-way"></i> 4,000 km
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-manual-transmission"></i> Manual
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-calendar-1"></i> 2021
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-fuel"></i> Petrol
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-car"></i> Sport
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-gear"></i> Blue
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide-item">
+                    <div class="car-box-4">
+                        <div class="photo-overflow">
+                            <div class="car-thumbnail-photo">
+                                <img class="img-fluid w-100" src="img/car/car-7.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="for">For Sale</div>
+                        <div class="ling-section">
+                            <div class="lo-text clearfix">
+                                <h3>
+                                    <a href="car-details.html">Orange lamborghini</a>
+                                </h3>
+                                <h5>$920.00 <span>/monthly</span></h5>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <i class="flaticon-way"></i> 4,000 km
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-manual-transmission"></i> Manual
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-calendar-1"></i> 2021
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-fuel"></i> Petrol
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-car"></i> Sport
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-gear"></i> Blue
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-slide-item">
+                    <div class="car-box-4">
+                        <div class="photo-overflow">
+                            <div class="car-thumbnail-photo">
+                                <img class="img-fluid w-100" src="img/car/car-9.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="for">For Rent</div>
+                        <div class="ling-section">
+                            <div class="lo-text clearfix">
+                                <h3>
+                                    <a href="car-details.html">BMW 5</a>
+                                </h3>
+                                <h5>$920.00 <span>/monthly</span></h5>
+                                <ul class="facilities-list clearfix">
+                                    <li>
+                                        <i class="flaticon-way"></i> 4,000 km
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-manual-transmission"></i> Manual
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-calendar-1"></i> 2021
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-fuel"></i> Petrol
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-car"></i> Sport
+                                    </li>
+                                    <li>
+                                        <i class="flaticon-gear"></i> Blue
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slick-prev slick-arrow-buton">
+                <i class="fa fa-angle-left"></i>
+            </div>
+            <div class="slick-next slick-arrow-buton">
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Featured car end -->
+
+<!-- advantages start -->
+<div class="advantages content-area-5 bg-grea-3">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title-3">
+            <p>We Are The Best</p>
+            <h1>Our <span>Advantages</span></h1>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="advantages-4">
+                    <div class="advantages-4-inner">
+                        <div class="icon flaticon-console">
+                            <i class="flaticon-shield"></i>
+                        </div>
+                        <div class="detail">
+                            <h4><a href="services.html">Highly Secured</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer  It has survived</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="advantages-4">
+                    <div class="advantages-4-inner">
+                        <div class="icon flaticon-console">
+                            <i class="flaticon-money"></i>
+                        </div>
+                        <div class="detail">
+                            <h4><a href="services.html">Get an Offer</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer  It has survived</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="advantages-4">
+                    <div class="advantages-4-inner">
+                        <div class="icon flaticon-console">
+                            <i class="flaticon-support-2"></i>
+                        </div>
+                        <div class="detail">
+                            <h4><a href="services.html">Free Support</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer  It has survived</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 text-center">
+                <a href="services.html" class="btn-6">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- advantages end -->
+
+<!-- Latest offers Start -->
+<div class="latest-offers categories content-area-13">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title-3">
+            <p>Latest Offers</p>
+            <h1>Our <span>Offers</span></h1>
+        </div>
+        <div class="row row-2">
+            <div class="col-lg-4 col-md-6 col-pad">
+                <div class="latest-offers-box">
+                    <div class="photo-overflow">
+                        <div class="car-thumbnail-photo">
+                            <img class="img-fluid w-100" src="img/car/car-11.png" alt="photo">
+                        </div>
+                    </div>
+                    <div class="new">New</div>
+                    <div class="ling-section">
+                        <div class="lo-text clearfix">
+                            <h3>
+                                <a href="car-details.html">Audi 2021</a>
+                            </h3>
+                            <h5>740.00 <span>/monthly</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-pad">
+                        <div class="latest-offers-box">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100" src="img/car/car-1.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="new">New</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details.html">Toyota Prius</a>
+                                    </h3>
+                                    <h5>410.00 <span>/monthly</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 col-pad">
+                        <div class="latest-offers-box">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100" src="img/car/car-2.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="new">New</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details.html">2020 Ford Mustang</a>
+                                    </h3>
+                                    <h5>920.00 <span>/monthly</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="row">
+                    <div class="col-md-6 col-lg-12 col-pad">
+                        <div class="latest-offers-box">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100" src="img/car/car-4.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="new">New</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details.html">Toyota Prius specs</a>
+                                    </h3>
+                                    <h5>$920.00 <span>/monthly</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12 col-pad">
+                        <div class="latest-offers-box">
+                            <div class="photo-overflow">
+                                <div class="car-thumbnail-photo">
+                                    <img class="img-fluid w-100" src="img/car/car-6.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="new">New</div>
+                            <div class="ling-section">
+                                <div class="lo-text clearfix">
+                                    <h3>
+                                        <a href="car-details.html">Audi Q7 2018</a>
+                                    </h3>
+                                    <h5>430.00 <span>/monthly</span></h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Latest offers end -->
+
+<!-- Our team start -->
+<div class="our-team content-area comon-slick bg-grea-3">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title-3">
+            <p>Executive Agent</p>
+            <h1>Our <span>Agent</span></h1>
+        </div>
+        <!-- Slick slider area start -->
+        <div class="slick row comon-slick-inner" data-slick='{"slidesToShow": 2, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+            <div class="item slide-box">
+                <div class="row team-2 g-0">
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                        <div class="team-thumb">
+                            <a href="#">
+                                <img src="img/avatar/avatar-16.png" alt="team-2" class="img-fluid w-100">
+                            </a>
+                            <div class="team-social flex-middle">
+                                <div class="team-overlay"></div>
+                                <div class="team-social-inner">
+                                    <a rel="nofollow" href="#" class="facebook">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="twitter">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="google">
+                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="linkedin">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 align-self-center">
+                        <div class="team-info">
+                            <h4><a href="agent-detail.html">Brandon Miller</a></h4>
+                            <h5>Manager</h5>
+                            <div class="contact">
+                                <p>
+                                    <a href="#"><i class="flaticon-pin"></i>44 New Design Street,</a>
+                                </p>
+                                <p>
+                                    <a href="mailto:info@themevessel.com"><i class="fa fa-envelope-o"></i>info@themevessel.com</a>
+                                </p>
+                                <p>
+                                    <a href="tel:+554XX-634-7071"> <i class="fa fa-phone"></i>+55 4XX-634-7071</a>
+                                </p>
+                                <p>
+                                    <a href="#"><i class="fa fa-skype"></i>sales.carshop</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-box">
+                <div class="row team-2 g-0">
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                        <div class="team-thumb">
+                            <a href="#">
+                                <img src="img/avatar/avatar-15.png" alt="team-1" class="img-fluid w-100">
+                            </a>
+                            <div class="team-social flex-middle">
+                                <div class="team-overlay"></div>
+                                <div class="team-social-inner">
+                                    <a rel="nofollow" href="#" class="facebook">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="twitter">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="google">
+                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="linkedin">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 align-self-center">
+                        <div class="team-info">
+                            <h4><a href="agent-detail.html">Martin Smith</a></h4>
+                            <h5>Support Manager</h5>
+                            <div class="contact">
+                                <p>
+                                    <a href="#"><i class="flaticon-pin"></i>44 New Design Street,</a>
+                                </p>
+                                <p>
+                                    <a href="mailto:info@themevessel.com"><i class="fa fa-envelope-o"></i>info@themevessel.com</a>
+                                </p>
+                                <p>
+                                    <a href="tel:+554XX-634-7071"> <i class="fa fa-phone"></i>+55 4XX-634-7071</a>
+                                </p>
+                                <p>
+                                    <a href="#"><i class="fa fa-skype"></i>sales.carshop</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-box">
+                <div class="row team-2 g-0">
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                        <div class="team-thumb">
+                            <a href="#">
+                                <img src="img/avatar/avatar-13.png" alt="team-2" class="img-fluid w-100">
+                            </a>
+                            <div class="team-social flex-middle">
+                                <div class="team-overlay"></div>
+                                <div class="team-social-inner">
+                                    <a rel="nofollow" href="#" class="facebook">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="twitter">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="google">
+                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="linkedin">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 align-self-center">
+                        <div class="team-info">
+                            <h4><a href="agent-detail.html">Carolyn Stone</a></h4>
+                            <h5>Creative Director</h5>
+                            <div class="contact">
+                                <p>
+                                    <a href="#"><i class="flaticon-pin"></i>44 New Design Street,</a>
+                                </p>
+                                <p>
+                                    <a href="mailto:info@themevessel.com"><i class="fa fa-envelope-o"></i>info@themevessel.com</a>
+                                </p>
+                                <p>
+                                    <a href="tel:+554XX-634-7071"> <i class="fa fa-phone"></i>+55 4XX-634-7071</a>
+                                </p>
+                                <p>
+                                    <a href="#"><i class="fa fa-skype"></i>sales.carshop</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-box">
+                <div class="row team-2 g-0">
+                    <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
+                        <div class="team-thumb">
+                            <a href="#">
+                                <img src="img/avatar/avatar-14.png" alt="team-2" class="img-fluid w-100">
+                            </a>
+                            <div class="team-social flex-middle">
+                                <div class="team-overlay"></div>
+                                <div class="team-social-inner">
+                                    <a rel="nofollow" href="#" class="facebook">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="twitter">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="google">
+                                        <i class="fa fa-google" aria-hidden="true"></i>
+                                    </a>
+                                    <a rel="nofollow" href="#" class="linkedin">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 align-self-center">
+                        <div class="team-info">
+                            <h4><a href="agent-detail.html">Michelle Nelson</a></h4>
+                            <h5>Web Developer</h5>
+                            <div class="contact">
+                                <p>
+                                    <a href="#"><i class="flaticon-pin"></i>44 New Design Street,</a>
+                                </p>
+                                <p>
+                                    <a href="mailto:info@themevessel.com"><i class="fa fa-envelope-o"></i>info@themevessel.com</a>
+                                </p>
+                                <p>
+                                    <a href="tel:+554XX-634-7071"> <i class="fa fa-phone"></i>+55 4XX-634-7071</a>
+                                </p>
+                                <p>
+                                    <a href="#"><i class="fa fa-skype"></i>sales.carshop</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Our team end -->
+
+<!-- Testimonial 4 start -->
+<div class="testimonial-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div id="carouselExampleFade2" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleFade2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleFade2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleFade2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="testimonial-info">
+                                <!-- Main title -->
+                                <div class="main-title-3">
+                                    <p>What Clients Say</p>
+                                    <h1>Our <span>Testimonial</span></h1>
+                                </div>
+                                <p class="mb-30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text everLorem industry's standard dummy text everLorem Ipsum Lorem Ipsum is simply dummy text of the printing. as been the industry</p>
+                                <div class="user-info d-flex">
+                                    <a class="pr-3" href="#" tabindex="-1">
+                                        <img src="img/avatar/avatar-1.png" alt="testimonial-user" class="flex-shrink-0 me-3">
+                                    </a>
+                                    <div class="detail align-self-center">
+                                        <h5>
+                                            <a href="#">Auro Navanth</a>
+                                        </h5>
+                                        <p>Web Designer, Uk</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial-info">
+                                <!-- Main title -->
+                                <div class="main-title-3">
+                                    <p>What Clients Say</p>
+                                    <h1>Our <span>Testimonial</span></h1>
+                                </div>
+                                <p class="mb-30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text everLorem industry's standard dummy text everLorem Ipsum Lorem Ipsum is simply dummy text of the printing. as been the industry</p>
+                                <div class="user-info d-flex">
+                                    <a class="pr-3" href="#">
+                                        <img src="img/avatar/avatar-3.png" alt="testimonial-user" class="flex-shrink-0 me-3">
+                                    </a>
+                                    <div class="detail align-self-center">
+                                        <h5>
+                                            <a href="#">Carolyn Stone</a>
+                                        </h5>
+                                        <p class="job">Web Designer, Uk</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="testimonial-info">
+                                <!-- Main title -->
+                                <div class="main-title-3">
+                                    <p>What Clients Say</p>
+                                    <h1>Our <span>Testimonial</span></h1>
+                                </div>
+                                <p class="mb-30">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text everLorem industry's standard dummy text everLorem Ipsum Lorem Ipsum is simply dummy text of the printing. as been the industry</p>
+                                <div class="user-info d-flex">
+                                    <a class="pr-3" href="#">
+                                        <img src="img/avatar/avatar-3.png" alt="testimonial-user" class="flex-shrink-0 me-3">
+                                    </a>
+                                    <div class="detail align-self-center">
+                                        <h5>
+                                            <a href="#">Michelle Nelson</a>
+                                        </h5>
+                                        <p class="job">Designer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial 4 end -->
+
+<!-- Blog start -->
+<div class="blog comon-slick content-area bg-grea-3">
+    <div class="container">
+        <!-- Main title -->
+        <div class="main-title-3">
+            <p>Latest News</p>
+            <h1>Our <span>Blog</span></h1>
+        </div>
+        <div class="slick row comon-slick-inner" data-slick='{"slidesToShow": 3, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 2}}, {"breakpoint": 768,"settings":{"slidesToShow": 1}}]}'>
+            <div class="item slide-box">
+                <div class="blog-1">
+                    <div class="blog-image">
+                        <img src="img/blog/blog-2.png" alt="blog" class="img-fluid">
+                        <div class="date-box">
+                            <span>27</span>Aug
+                        </div>
+                        <div class="profile-user">
+                            <img src="img/avatar/avatar-2.png" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="post-meta clearfix">
+                            <ul>
+                                <li class="user-name">
+                                    <strong><a href="#">Michelle Nelson</a></strong>
+                                </li>
+                                <li><a href="#"><i class="flaticon-comment"></i></a>12K</li>
+                                <li><a href="#"><i class="flaticon-calendar"></i></a>24k</li>
+                            </ul>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">Find Your Dream Car</a>
+                        </h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-box">
+                <div class="blog-1">
+                    <div class="blog-image">
+                        <img src="img/blog/blog-3.png" alt="blog" class="img-fluid">
+                        <div class="date-box">
+                            <span>21</span>Feb
+                        </div>
+                        <div class="profile-user">
+                            <img src="img/avatar/avatar-1.png" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="post-meta clearfix">
+                            <ul>
+                                <li class="user-name">
+                                    <strong><a href="#">Maria Blank</a></strong>
+                                </li>
+                                <li><a href="#"><i class="flaticon-comment"></i></a>17K</li>
+                                <li><a href="#"><i class="flaticon-calendar"></i></a>73k</li>
+                            </ul>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">Selling Your New Cars?</a>
+                        </h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-box">
+                <div class="blog-1">
+                    <div class="blog-image">
+                        <img src="img/blog/blog-1.png" alt="blog" class="img-fluid">
+                        <div class="date-box">
+                            <span>12</span>Sep
+                        </div>
+                        <div class="profile-user">
+                            <img src="img/avatar/avatar-3.png" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="post-meta clearfix">
+                            <ul>
+                                <li class="user-name">
+                                    <strong><a href="#">Carolyn Stone</a></strong>
+                                </li>
+                                <li><a href="#"><i class="flaticon-comment"></i></a>27K</li>
+                                <li><a href="#"><i class="flaticon-calendar"></i></a>64k</li>
+                            </ul>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">Buying a Best Sports Car</a>
+                        </h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item slide-box">
+                <div class="blog-1">
+                    <div class="blog-image">
+                        <img src="img/blog/blog-1.png" alt="blog" class="img-fluid">
+                        <div class="date-box">
+                            <span>12</span>Sep
+                        </div>
+                        <div class="profile-user">
+                            <img src="img/avatar/avatar-3.png" alt="user">
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="post-meta clearfix">
+                            <ul>
+                                <li class="user-name">
+                                    <strong><a href="#">Carolyn Stone</a></strong>
+                                </li>
+                                <li><a href="#"><i class="flaticon-comment"></i></a>27K</li>
+                                <li><a href="#"><i class="flaticon-calendar"></i></a>64k</li>
+                            </ul>
+                        </div>
+                        <h4>
+                            <a href="blog-details.html">Buying a Best Sports Car</a>
+                        </h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Blog end -->
+
+<!-- Partners strat -->
+<div class="partners">
+    <div class="container">
+        <div class="slick-slider-area">
+            <div class="row slick-carousel" data-slick='{"slidesToShow": 5, "responsive":[{"breakpoint": 1024,"settings":{"slidesToShow": 3}}, {"breakpoint": 768,"settings":{"slidesToShow": 2}}]}'>
+                <div class="slick-slide-item"><img src="img/brand/brand-1.png" alt="brand" class="img-fluid"></div>
+                <div class="slick-slide-item"><img src="img/brand/brand-2.png" alt="brand" class="img-fluid"></div>
+                <div class="slick-slide-item"><img src="img/brand/brand-3.png" alt="brand" class="img-fluid"></div>
+                <div class="slick-slide-item"><img src="img/brand/brand-4.png" alt="brand" class="img-fluid"></div>
+                <div class="slick-slide-item"><img src="img/brand/brand-1.png" alt="brand" class="img-fluid"></div>
+                <div class="slick-slide-item"><img src="img/brand/brand-2.png" alt="brand" class="img-fluid"></div>
+                <div class="slick-slide-item"><img src="img/brand/brand-3.png" alt="brand" class="img-fluid"></div>
+                <div class="slick-slide-item"><img src="img/brand/brand-4.png" alt="brand" class="img-fluid"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Partners end -->
+
+<!-- Footer start -->
+<footer class="main-footer-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="logo-image">
+                    <a href="#"><img src="img/logos/logo.png" alt="logo" class="f-logo"></a>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li class="li">
+                            <a href="index.html">Index</a>
+                        </li>
+                        <li class="li">
+                            <a href="car-grid-rightside.html">Car Listing</a>
+                        </li>
+                        <li class="li">
+                            <a href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="li">
+                            <a href="about.html">About Us</a>
+                        </li>
+                        <li class="li">
+                            <a href="blog-columns-2col.html">Blog</a>
+                        </li>
+                        <li class="li">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social-media clearfix">
+                    <div class="social-list-2">
+                        <ul>
+                            <li><a href="#" class="facebook-bg"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="twitter-bg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#" class="google-bg"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#" class="linkedin-bg"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p> ©  2021 <a href="http://themevessel.com/" target="_blank">Theme Vessel</a>. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+<!-- Full Page Search -->
+<div id="full-page-search">
+    <button type="button" class="close">×</button>
+    <div class="full-page-search-box">
+        <form action="index.html#" class="search-boxs">
+            <input class="search" type="search" value="" placeholder="type keyword(s) here"/>
+            <button type="submit" class="btn btn-sm button-theme">Search</button>
+        </form>
+    </div>
+</div>
+
+<!-- Car Modal 2 -->
+<div class="car-model-2">
+    <div class="modal fade" id="carOverviewModal" tabindex="-1" role="dialog" aria-labelledby="carOverviewModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="carOverviewModalLabel">
+                        Find Your Dream Car
+                    </h5>
+                    <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row modal-raw">
+                        <div class="col-lg-6 modal-left">
+                            <div class="modal-left-content">
+                                <div class="bs-example" data-example-id="carousel-with-captions">
+                                    <div class="carousel slide" id="properties-carousel" data-ride="carousel">
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="item active">
+                                                <iframe src="https://www.youtube.com/embed/V7IrnC9MISU" allowfullscreen=""></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 modal-right">
+                            <div class="modal-right-content">
+                                <section>
+                                    <h3>Features</h3>
+                                    <div class="features">
+                                        <ul class="bullets">
+                                            <li>Cruise Control</li>
+                                            <li>Airbags</li>
+                                            <li>Air Conditioning</li>
+                                            <li>Alarm System</li>
+                                            <li>Audio Interface</li>
+                                            <li>CDR Audio</li>
+                                            <li>Seat Heating</li>
+                                            <li>ParkAssist</li>
+                                        </ul>
+                                    </div>
+                                </section>
+                                <section>
+                                    <h3>Overview</h3>
+                                    <dl>
+                                        <dt>Model</dt>
+                                        <dd>Audi</dd>
+                                        <dt>Condition</dt>
+                                        <dd>Brand New</dd>
+                                        <dt>Year</dt>
+                                        <dd>2020</dd>
+                                        <dt>Price</dt>
+                                        <dd>$178,000</dd>
+                                    </dl>
+                                </section>
+                                <div class="dd">
+                                    <div class="ratings-2">
+                                        <span class="ratings-box">4.5/5</span>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                        <span>( 7 Reviews )</span>
+                                    </div>
+                                    <div class="btns">
+                                        <a href="car-details.html" class="btn btn-md btn-round btn-theme">Show Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script  src="js/bootstrap-submenu.js"></script>
+<script  src="js/rangeslider.js"></script>
+<script  src="js/jquery.mb.YTPlayer.js"></script>
+<script  src="js/bootstrap-select.min.js"></script>
+<script  src="js/jquery.easing.1.3.js"></script>
+<script  src="js/jquery.scrollUp.js"></script>
+<script  src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script  src="js/leaflet.js"></script>
+<script  src="js/leaflet-providers.js"></script>
+<script  src="js/leaflet.markercluster.js"></script>
+<script  src="js/dropzone.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/slick.min.js"></script>
+<script  src="js/jquery.filterizr.js"></script>
+<script  src="js/jquery.magnific-popup.min.js"></script>
+<script  src="js/jquery.countdown.js"></script>
+<script  src="js/jquery.mousewheel.min.js"></script>
+<script  src="js/lightgallery-all.js"></script>
+<script  src="js/jnoty.js"></script>
+<script  src="js/maps.js"></script>
+<script  src="js/sidebar.js"></script>
+<script  src="js/app.js"></script>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+<!-- Custom javascript -->
+<script  src="js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
