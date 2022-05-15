@@ -13,10 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/home', function () {
+Route::any('/{any}', function () {
     return view('Home.index');
-});
-
-
-
+})->where('any', '.*');
 
